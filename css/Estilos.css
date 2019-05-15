@@ -1,0 +1,18 @@
+.letra{
+	font-family:Arial;
+	float:left;
+	color:black;
+}
+label{
+	font-family:Arial;
+    color: black;
+    float: left;
+}
+
+li{
+	float: right;
+}
+.letra1{
+	float:none;
+	background:white; padding:9px; 
+}
