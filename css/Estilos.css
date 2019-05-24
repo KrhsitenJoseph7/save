@@ -1,18 +1,48 @@
-.letra{
-	font-family:Arial;
-	float:left;
-	color:black;
-}
-label{
-	font-family:Arial;
-    color: black;
-    float: left;
+body {
+    background:url(../imag/IMG-20190515-WA0023.jpg);
+    background-size:100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: monospace;
 }
 
-li{
-	float: right;
+form {
+    width:450px;
+    margin: auto;
+    background: rgba(0, 0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    
 }
-.letra1{
-	float:none;
-	background:white; padding:9px; 
+h1 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom:20px;
+    
+    
+}
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: none;
+}
+
+#boton{
+    background: #0910E6;
+    color: #fff;
+    padding: 20px;
+}
+#boton:hover {
+    cursor: pointer;
+}
+textarea{
+	max-width:100px;
+	max-height:200px;
+	max-width:100%; 
 }
