@@ -4,16 +4,16 @@
 	<title>Contacto</title>
 	<link rel="stylesheet" type="text/css" href="css/Estilos.css">
 </head>
-<form action=""  method="POST">
+<form action="Enviar.php"  method="POST">
 <body>
 	<br />
 <h1>Contactanos</h1>
 <br />
-<input type="text" name="NOMBsRE" placeholder="NOMBRE">
-<input type="text" name="CORREO" placeholder="CORREO">
-<input type="TELEFONO" name="TELEFONO" placeholder="TELEFONO">
-<textarea name="mensaje" placeholder="Escribe tu mensaje"></textarea>
-<input type="button" value="ENVIAR" id="boton" placeholder="ENVIAR">
+<input type="text" name="NOMBRE" placeholder="NOMBRE" required>
+<input type="email" name="CORREO" placeholder="CORREO" required>
+<input type="number" name="TELEFONO" placeholder="TELEFONO" required>
+<textarea name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+<input type="submit" value="ENVIAR" id="boton" placeholder="ENVIAR">
 </form>
 </body>
 </html>
